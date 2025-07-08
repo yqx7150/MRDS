@@ -34,7 +34,7 @@ tqdm
 gradio
 
 ###  Checkpoints
-We provide the pre-trained model and place it in the MRDS/codes/config/despeckle/pre-trained model file path.
+We provide the pre-trained model and place it in the Baidu Drive.
 
 ###  Dataset
 The dataset used to train the model in this experiment is Fashion-MNIST dataset.
