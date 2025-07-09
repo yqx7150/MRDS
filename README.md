@@ -1,6 +1,6 @@
-MRDS
+##  MRDS
 
-Mean-Reverting Diffusion Model-Enhanced Scattering Imaging
+Mean-Reverting Diffusion Model-Enhanced Scattering Imaging  
 Jiayuan Lin, Qi Yu, Meng Teng, Xinmin Ding, Detang Xiao, Wenbo Wan, and Qiegen Liu, Senior Member, IEEE
 
 ###  Abstract:
@@ -9,44 +9,44 @@ Scattering media disrupt the rectilinear propagation of light, significantly deg
 
 
 
-![alt text](MRDS.png)
+![MRDS.png](https://github.com/yqx7150/MRDS/blob/main/imgs/MRDS.png)
 The main procedure of MRDS. Prior information learning: The network learns the prior information of the data distribution. Physically-guided inverting: The initial reconstruction is executed employing the Wiener filter deconvolution technique. Mean reversion iteration: The target is progressively recovered through the iterative resolution of the reverse-time stochastic differential equation (SDE). GT, ground truth; HQ, high-quality image; LQ, low-quality image; PSF, point spread function; TV, total variation.
 
 
 
 
-###  Requirements and Dependencies
+###  Requirements and Dependencies:
 
-einops==0.6.0
-lmdb==1.3.0
-lpips==0.1.4
-numpy==1.23.5
-opencv-python==4.6.0.66
-Pillow==9.3.0
-PyYAML==6.0
-scipy==1.9.3
-tensorboardX==2.5.1
-timm==0.6.12
-torch==1.13.0
-torchsummaryX==1.3.0
-torchvision==0.14.0
-tqdm
-gradio
+einops==0.6.0  
+lmdb==1.3.0  
+lpips==0.1.4  
+numpy==1.23.5  
+opencv-python==4.6.0.66  
+Pillow==9.3.0  
+PyYAML==6.0  
+scipy==1.9.3  
+tensorboardX==2.5.1  
+timm==0.6.12  
+torch==1.13.0  
+torchsummaryX==1.3.0  
+torchvision==0.14.0  
+tqdm  
+gradio  
 
-###  Checkpoints
-We provide the pre-trained model and place it in the Baidu Drive.
+###  Checkpoints:
+We provide the pre-trained model and the PSF obtained from experiments, and place them in the Baidu Drive [MRDS](https://pan.baidu.com/s/1CEIuix8AMewR75WU4yE77g?).
 
-###  Dataset
+###  Dataset:
 The dataset used to train the model in this experiment is Fashion-MNIST dataset.
 
-###  Training
+###  Training:
 Place the dataset in the train_GT folder under the train directory, and store the low-quality images  in the train_LQ folder under the same train directory, and then run
 
 python train.py -opt=options/train/refusion.yml
 
 
-###  Testing
-Place the dataset in the test_GT folder under the test directory, and store the speckle images  in the test_LQ folder under the same train directory, and then run
+###  Testing:
+Place the dataset in the test_GT folder under the test directory, and store the speckle images  in the test_LQ folder under the same test directory, and then run
 
 python test.py -opt=options/test/refusion.yml.
 
@@ -55,7 +55,7 @@ For the system experiment, we provide the speckle data obtained from the experim
 python shice.py -opt=options/shice/refusion.yml.
 
 
-###  Acknowledgement
+###  Acknowledgement:
 Thanks to these repositories for providing us with method code and experimental data: https://github.com/Algolzw/image-restoration-sde. 
 
 
