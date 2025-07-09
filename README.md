@@ -34,7 +34,7 @@ tqdm
 gradio  
 
 ###  Checkpoints:
-We provide the pre-trained model and the PSF obtained from experiments, and place them in the Baidu Drive [MRDS](https://pan.baidu.com/s/1CEIuix8AMewR75WU4yE77g?).
+We provide the pre-trained model and place it in the Baidu Drive [MRDS](https://pan.baidu.com/s/1CEIuix8AMewR75WU4yE77g?). 
 
 ###  Dataset:
 The dataset used to train the model in this experiment is Fashion-MNIST dataset.
@@ -50,7 +50,8 @@ Place the dataset in the test_GT folder under the test directory, and store the 
 
 python test.py -opt=options/test/refusion.yml.
 
-For the system experiment, we provide the speckle data obtained from the experiment and place it in the shice folder under the test directory, and then run
+For the system experiment, we provide the data obtained from the experiment and place it in the Baidu Drive [MRDS](https://pan.baidu.com/s/1CEIuix8AMewR75WU4yE77g?).  
+Then place the speckle images in the shice folder under the test directory and then run  
 
 python shice.py -opt=options/shice/refusion.yml.
 
