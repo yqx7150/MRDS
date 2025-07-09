@@ -9,7 +9,7 @@ Scattering media disrupt the rectilinear propagation of light, significantly deg
 
 
 
-![alt text](MRDS.png)
+![MRDS.png](https://github.com/yqx7150/MRDS/blob/main/imgs/MRDS.png)
 The main procedure of MRDS. Prior information learning: The network learns the prior information of the data distribution. Physically-guided inverting: The initial reconstruction is executed employing the Wiener filter deconvolution technique. Mean reversion iteration: The target is progressively recovered through the iterative resolution of the reverse-time stochastic differential equation (SDE). GT, ground truth; HQ, high-quality image; LQ, low-quality image; PSF, point spread function; TV, total variation.
 
 
