@@ -46,7 +46,7 @@ python train.py -opt=options/train/refusion.yml
 
 
 ###  Testing:
-Place the dataset in the test_GT folder under the test directory, and store the speckle images  in the test_LQ folder under the same train directory, and then run
+Place the dataset in the test_GT folder under the test directory, and store the speckle images  in the test_LQ folder under the same test directory, and then run
 
 python test.py -opt=options/test/refusion.yml.
 
