@@ -1,6 +1,6 @@
-MRDS
+###  MRDS
 
-Mean-Reverting Diffusion Model-Enhanced Scattering Imaging
+Mean-Reverting Diffusion Model-Enhanced Scattering Imaging  
 Jiayuan Lin, Qi Yu, Meng Teng, Xinmin Ding, Detang Xiao, Wenbo Wan, and Qiegen Liu, Senior Member, IEEE
 
 ###  Abstract:
@@ -34,7 +34,7 @@ tqdm
 gradio
 
 ###  Checkpoints
-We provide the pre-trained model and place it in the Baidu Drive.
+We provide the pre-trained model and the PSF obtained from experiments, and place them in the Baidu Drive [MRDS](https://pan.baidu.com/s/1CEIuix8AMewR75WU4yE77g?).
 
 ###  Dataset
 The dataset used to train the model in this experiment is Fashion-MNIST dataset.
